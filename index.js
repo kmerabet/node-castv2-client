@@ -9,3 +9,4 @@ module.exports.MediaController            = require('./lib/controllers/media');
 module.exports.Client = module.exports.PlatformSender   = require('./lib/senders/platform');
 module.exports.Application                              = require('./lib/senders/application');
 module.exports.DefaultMediaReceiver                     = require('./lib/senders/default-media-receiver');
+module.exports.CustomMediaReceiver                     = require('./lib/senders/custom-media-receiver');

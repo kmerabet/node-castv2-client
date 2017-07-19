@@ -1,30 +1,90 @@
 {
-  "name": "castv2-client",
-  "version": "1.2.0",
-  "description": "A Chromecast client based on the new (CASTV2) protocol",
-  "author": "thibauts",
-  "license": "MIT",
-  "main": "index.js",
+  "_args": [
+    [
+      {
+        "raw": "castv2-client@^1.2.0",
+        "scope": null,
+        "escapedName": "castv2-client",
+        "name": "castv2-client",
+        "rawSpec": "^1.2.0",
+        "spec": ">=1.2.0 <2.0.0",
+        "type": "range"
+      },
+      "/home/kmerabet/Documents/sii/node-app/node_modules/castv2-player"
+    ]
+  ],
+  "_from": "castv2-client@>=1.2.0 <2.0.0",
+  "_id": "castv2-client@1.2.0",
+  "_inCache": true,
+  "_location": "/castv2-client",
+  "_nodeVersion": "4.2.4",
+  "_npmOperationalInternal": {
+    "host": "packages-12-west.internal.npmjs.com",
+    "tmp": "tmp/castv2-client-1.2.0.tgz_1483129880591_0.3564770014490932"
+  },
+  "_npmUser": {
+    "name": "thibauts",
+    "email": "thibaut.seguy@gmail.com"
+  },
+  "_npmVersion": "2.14.12",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "castv2-client@^1.2.0",
+    "scope": null,
+    "escapedName": "castv2-client",
+    "name": "castv2-client",
+    "rawSpec": "^1.2.0",
+    "spec": ">=1.2.0 <2.0.0",
+    "type": "range"
+  },
+  "_requiredBy": [
+    "/castv2-player"
+  ],
+  "_resolved": "https://registry.npmjs.org/castv2-client/-/castv2-client-1.2.0.tgz",
+  "_shasum": "a9193b1a5448b8cb9a0415bd021c8811ed7b0544",
+  "_shrinkwrap": null,
+  "_spec": "castv2-client@^1.2.0",
+  "_where": "/home/kmerabet/Documents/sii/node-app/node_modules/castv2-player",
+  "author": {
+    "name": "thibauts"
+  },
+  "bugs": {
+    "url": "https://github.com/thibauts/node-castv2-client/issues"
+  },
   "dependencies": {
     "castv2": "~0.1.4",
     "debug": "^2.2.0"
   },
-  "devDependencies": {
-    "array-find": "^1.0.0",
-    "dns-txt": "^2.0.2",
-    "mocha": "^3.2.0",
-    "multicast-dns": "^6.1.0",
-    "util": "^0.10.3"
+  "description": "A Chromecast client based on the new (CASTV2) protocol",
+  "devDependencies": {},
+  "directories": {},
+  "dist": {
+    "shasum": "a9193b1a5448b8cb9a0415bd021c8811ed7b0544",
+    "tarball": "https://registry.npmjs.org/castv2-client/-/castv2-client-1.2.0.tgz"
   },
-  "scripts": {
-    "test": "node_modules/.bin/mocha"
-  },
+  "gitHead": "cc712dac6a331615654c8193bfbd868563167d57",
+  "homepage": "https://github.com/thibauts/node-castv2-client#readme",
+  "keywords": [
+    "chromecast",
+    "castv2"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "maintainers": [
+    {
+      "name": "thibauts",
+      "email": "thibaut.seguy@gmail.com"
+    }
+  ],
+  "name": "castv2-client",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
   "repository": {
     "type": "git",
     "url": "git://github.com/thibauts/node-castv2-client.git"
   },
-  "keywords": [
-    "chromecast",
-    "castv2"
-  ]
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "1.2.0"
 }
