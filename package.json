@@ -11,9 +11,30 @@
         "type": "range"
       },
       "/home/kmerabet/Documents/sii/node-app/node_modules/castv2-player"
+    ],
+    [
+      {
+        "raw": "castv2-client@git+https://github.com/kmerabet/node-castv2-client.git",
+        "scope": null,
+        "escapedName": "castv2-client",
+        "name": "castv2-client",
+        "rawSpec": "git+https://github.com/kmerabet/node-castv2-client.git",
+        "spec": "git+https://github.com/kmerabet/node-castv2-client.git",
+        "type": "hosted",
+        "hosted": {
+          "type": "github",
+          "ssh": "git@github.com:kmerabet/node-castv2-client.git",
+          "sshUrl": "git+ssh://git@github.com/kmerabet/node-castv2-client.git",
+          "httpsUrl": "git+https://github.com/kmerabet/node-castv2-client.git",
+          "gitUrl": "git://github.com/kmerabet/node-castv2-client.git",
+          "shortcut": "github:kmerabet/node-castv2-client",
+          "directUrl": "https://raw.githubusercontent.com/kmerabet/node-castv2-client/master/package.json"
+        }
+      },
+      "/home/kmerabet/Documents/sii/node-app/node_modules/castv2-player"
     ]
   ],
-  "_from": "castv2-client@>=1.2.0 <2.0.0",
+  "_from": "git+https://github.com/kmerabet/node-castv2-client.git",
   "_id": "castv2-client@1.2.0",
   "_inCache": true,
   "_location": "/castv2-client",
@@ -29,21 +50,30 @@
   "_npmVersion": "2.14.12",
   "_phantomChildren": {},
   "_requested": {
-    "raw": "castv2-client@^1.2.0",
+    "raw": "castv2-client@git+https://github.com/kmerabet/node-castv2-client.git",
     "scope": null,
     "escapedName": "castv2-client",
     "name": "castv2-client",
-    "rawSpec": "^1.2.0",
-    "spec": ">=1.2.0 <2.0.0",
-    "type": "range"
+    "rawSpec": "git+https://github.com/kmerabet/node-castv2-client.git",
+    "spec": "git+https://github.com/kmerabet/node-castv2-client.git",
+    "type": "hosted",
+    "hosted": {
+      "type": "github",
+      "ssh": "git@github.com:kmerabet/node-castv2-client.git",
+      "sshUrl": "git+ssh://git@github.com/kmerabet/node-castv2-client.git",
+      "httpsUrl": "git+https://github.com/kmerabet/node-castv2-client.git",
+      "gitUrl": "git://github.com/kmerabet/node-castv2-client.git",
+      "shortcut": "github:kmerabet/node-castv2-client",
+      "directUrl": "https://raw.githubusercontent.com/kmerabet/node-castv2-client/master/package.json"
+    }
   },
   "_requiredBy": [
     "/castv2-player"
   ],
-  "_resolved": "https://registry.npmjs.org/castv2-client/-/castv2-client-1.2.0.tgz",
-  "_shasum": "a9193b1a5448b8cb9a0415bd021c8811ed7b0544",
+  "_resolved": "git+https://github.com/kmerabet/node-castv2-client.git#6cdf64e7664be0832459debe443d62172db44c49",
+  "_shasum": "c29f65470f834394376ac0c74f366ee35e8784de",
   "_shrinkwrap": null,
-  "_spec": "castv2-client@^1.2.0",
+  "_spec": "castv2-client@git+https://github.com/kmerabet/node-castv2-client.git",
   "_where": "/home/kmerabet/Documents/sii/node-app/node_modules/castv2-player",
   "author": {
     "name": "thibauts"
